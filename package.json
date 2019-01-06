@@ -1,0 +1,33 @@
+{
+  "name": "promise-mq",
+  "version": "0.0.1",
+  "description": "一个简单的 javascript 消息队列",
+  "main": "dist/promise-mq.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarxJiao/promise-mq.git"
+  },
+  "keywords": [
+    "mq",
+    "javascript",
+    "message",
+    "queue"
+  ],
+  "author": "Marx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarxJiao/promise-mq/issues"
+  },
+  "homepage": "https://github.com/MarxJiao/promise-mq#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
