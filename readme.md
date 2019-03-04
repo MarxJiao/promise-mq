@@ -52,15 +52,15 @@ for (let data of testData) {
 
 ## 说明
 
-PromiseMq 是个类, 需要通过 new PromiseMq(consumer, options) 来使用
+PromiseMq 是个类, 需要通过 new PromiseMq(consumer, options) 来使用
 
 ### 参数
 
 - **consumer**: 消耗数据的函数，需要返回 Promise。必填参数。
-- **options**: 配置，可选参数。
+- **options**: 配置，可选参数。
     - options.size: 窗口大小，默认为4，会有4个 consumer 同时执行。
     - retryTimes: consumer reject 后的重试次数，默认 1，重试 1 次。小于等于 0 不重试。
 
 ### 方法
 
-- addData: 往队列点添加数据。
+- addData: 往队列点添加数据。
